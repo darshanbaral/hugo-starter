@@ -12,4 +12,4 @@ hugo server
 
 ## Snippets
 
-This starter library has some snippets that may be usefule such as partials for breadcrumb, pagination links, and links for previous/next articles.
+This starter library has some snippets that may be useful such as partials for breadcrumb, pagination links, links for previous/next articles, and related `CSS`.
