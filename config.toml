@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hugo Starter Theme"
+author = "Darshan Baral"
+theme = "dbStarterTheme"
+
+[params]
+    [params.db_params]
+        dateFormat = "2006/01/02"
+        paginateNum = 1

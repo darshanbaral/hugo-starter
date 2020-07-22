@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1 class="list-title">
+  {{- .Title -}}
+</h1>
+<ul class="list-pages">
+  {{ range (.Paginator .Site.Params.db_params.paginateNum).Pages }}
+  <li class="list-page-title">
+    <a href="{{ .Permalink }}">
+      {{- .Title -}}
+    </a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

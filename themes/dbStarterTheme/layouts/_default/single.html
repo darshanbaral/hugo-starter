@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="article front-matter">
+  <h1>{{ .Title }}</h1>
+  {{ dateFormat .Site.Params.db_params.dateFormat .Date }}
+</div>
+<div class="article content">
+  {{ .Content }}
+</div>
+{{ end }}

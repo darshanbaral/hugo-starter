@@ -1,0 +1,26 @@
+<div class="prev-next">
+  {{- if .PrevInSection }}
+  <a
+    class="previous-link active"
+    href="{{ .PrevInSection.Permalink | relURL }}"
+  >
+    Previous
+  </a>
+  {{- else }}
+  <div class="previous-link disabled">
+    Previous
+  </div>
+  {{- end }}
+  
+  {{- if .NextInSection }}
+  <div>
+    <a class="next-link active" href="{{ .NextInSection.Permalink | relURL }}">
+      Next
+    </a>
+  </div>
+  {{- else }}
+  <div class="next-link disabled">
+    Next
+  </div>
+  {{- end }}
+</div>

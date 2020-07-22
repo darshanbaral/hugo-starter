@@ -1,0 +1,36 @@
+.prev-next {
+  --paginationBG: #ffffff;
+  --paginationMain: #000000;
+  --paginationInactive: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.next-link,
+.previous-link {
+  padding: 10px 3px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  min-width: 100px;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+.previous-link.active,
+.next-link.active {
+  color: var(--paginationMain);
+  background-color: var(--paginationBG);
+  border: solid 1px var(--paginationMain);
+  cursor: pointer;
+}
+.next-link.active:hover,
+.previous-link.active:hover {
+  color: var(--paginationBG);
+  text-decoration: none;
+  background-color: var(--paginationMain);
+}
+.previous-link.disabled,
+.next-link.disabled {
+  color: var(--paginationInactive);
+  border: solid 1px var(--paginationInactive);
+}

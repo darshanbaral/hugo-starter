@@ -1,0 +1,13 @@
+{{ if eq .Kind "section" }}
+{{ template "_internal/pagination.html" . }}
+{{ end }}
+
+{{ if eq .Kind "page" }}
+{{ partial "db_partials/prevNext.html" . }}
+{{ end }}
+
+<footer>
+  <span>
+    {{ dateFormat "2006" now }}
+  </span>
+</footer>
