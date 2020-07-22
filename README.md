@@ -1,5 +1,5 @@
 # hugo-starter
-Simple starter library to create gohugo websites from scratch
+Simple starter library to create gohugo websites from scratch. This has slightly more stuff than the skeleton created by `hugo new site`.
 
 ## Usage
 
