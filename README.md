@@ -3,7 +3,7 @@ Simple starter library to create gohugo websites from scratch. This has slightly
 
 ## Usage
 
-Clone the repo > avigate into the directory > Start the server > Start making changes as necessary
+Clone the repo > navigate into the directory > start the server > begin making changes as necessary
 ```
 git clone https://github.com/darshanbaral/hugo-starter.git
 cd hugo-starter
